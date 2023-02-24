@@ -1,0 +1,42 @@
+* {
+	font-family: Arial;
+}
+.form-control {
+	margin: 0.5rem 0;
+}
+
+.form-control label {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 0.5rem;
+	font-size: 1.2rem;
+}
+
+.form-control input {
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+	font: inherit;
+	line-height: 1.5rem;
+	padding: 0 0.25rem;
+}
+
+.form-control.invalid input {
+	border-color: red;
+}
+.form-control input:focus {
+	outline: none;
+	background: #fad0ec;
+	border-color: #8b005d;
+}
+p {
+	font-size: 0.8rem;
+}
+.error {
+	color: red;
+	transition: all 0.6s ease-in;
+	font-size: 0.8rem;
+}
+.hide {
+	opacity: 0;
+}
